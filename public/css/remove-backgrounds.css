@@ -1,0 +1,16 @@
+/* 
+ * Minimal override - Just remove background images
+ * Keeps all original styling intact
+ */
+
+/* Remove header background image */
+header {
+   background: #161415 !important;
+   background-image: none !important;
+}
+
+/* Remove references background image */
+#references {
+   background: #1F1F1F !important;
+   background-image: none !important;
+}
