@@ -1,0 +1,393 @@
+/* 
+ * Light Theme - React-style colors
+ * Careful to preserve all original spacing and alignment
+ */
+
+/* Import modern sans-serif font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* ------------------------------------------------------------------ */
+/* Color Variables */
+/* ------------------------------------------------------------------ */
+:root {
+  --bg-white: #FFFFFF;
+  --bg-light-grey: #F7F9FC;
+  --text-dark: #1A202C;
+  --text-medium: #4A5568;
+  --text-light: #718096;
+  --blue-glow: #61DAFB;
+  --blue-accent: #0EA5E9;
+  --border-light: #E2E8F0;
+}
+
+/* ------------------------------------------------------------------ */
+/* Global Font Override - Remove italic fonts */
+/* ------------------------------------------------------------------ */
+body {
+  background: var(--bg-white) !important;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif !important;
+  color: var(--text-dark) !important;
+}
+
+/* Remove all italic fonts */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif !important;
+  font-style: normal !important;
+  color: var(--text-dark) !important;
+}
+
+p, span, div, a, li {
+  font-family: 'Inter', sans-serif !important;
+  font-style: normal !important;
+}
+
+/* Specifically target italic elements */
+em, i, cite {
+  font-family: 'Inter', sans-serif !important;
+  font-style: normal !important;
+  font-weight: 500;
+}
+
+/* ------------------------------------------------------------------ */
+/* Header Section - White background with blue glow */
+/* ------------------------------------------------------------------ */
+header {
+  background: var(--bg-white) !important;
+  background-image: none !important;
+}
+
+header .banner-text h1 {
+  color: var(--text-dark) !important;
+  text-shadow: 0 0 40px rgba(97, 218, 251, 0.6), 
+               0 0 20px rgba(97, 218, 251, 0.4),
+               0 0 10px rgba(97, 218, 251, 0.3) !important;
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 700 !important;
+}
+
+header .banner-text h3 {
+  color: var(--text-medium) !important;
+  text-shadow: 0 0 30px rgba(97, 218, 251, 0.4),
+               0 0 15px rgba(97, 218, 251, 0.3) !important;
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+
+header .banner-text h3 span {
+  color: var(--blue-accent) !important;
+  font-weight: 600;
+}
+
+header .banner-text hr {
+  border-color: var(--border-light) !important;
+}
+
+/* Header social links */
+header .social li a {
+  color: var(--text-dark) !important;
+}
+
+header .social li a:hover {
+  color: var(--blue-accent) !important;
+}
+
+header .scrolldown a {
+  color: var(--text-medium) !important;
+}
+
+header .scrolldown a:hover {
+  color: var(--blue-accent) !important;
+}
+
+/* ------------------------------------------------------------------ */
+/* Navigation */
+/* ------------------------------------------------------------------ */
+#nav-wrap {
+  background-color: var(--bg-white) !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#nav-wrap ul#nav li a {
+  color: var(--text-dark) !important;
+}
+
+#nav-wrap ul#nav li a:hover,
+#nav-wrap ul#nav li a.current {
+  color: var(--blue-accent) !important;
+}
+
+.opaque {
+  background-color: var(--bg-white) !important;
+}
+
+/* ------------------------------------------------------------------ */
+/* About Section */
+/* ------------------------------------------------------------------ */
+#about {
+  background: var(--bg-light-grey) !important;
+  padding-top: 96px;
+  padding-bottom: 66px;
+}
+
+#about h2 {
+  color: var(--text-dark) !important;
+  font-weight: 600 !important;
+}
+
+#about p {
+  color: var(--text-medium) !important;
+}
+
+#about .contact-details h2 {
+  color: var(--text-dark) !important;
+}
+
+#about .contact-details .address {
+  color: var(--text-medium) !important;
+}
+
+#about .contact-details .address span {
+  color: var(--text-medium) !important;
+}
+
+#about .contact-details .address a {
+  color: var(--blue-accent) !important;
+}
+
+/* ------------------------------------------------------------------ */
+/* Resume Section */
+/* ------------------------------------------------------------------ */
+#resume {
+  background: var(--bg-white) !important;
+  padding-top: 90px;
+  padding-bottom: 72px;
+}
+
+#resume .header-col h1 {
+  color: var(--text-dark) !important;
+  font-weight: 600 !important;
+}
+
+#resume h3 {
+  color: var(--text-dark) !important;
+  font-weight: 600 !important;
+}
+
+/* Remove italics from job titles and dates */
+#resume .info {
+  color: var(--text-medium) !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+}
+
+#resume .info em {
+  color: var(--text-light) !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+}
+
+#resume .date {
+  font-style: normal !important;
+}
+
+#resume p {
+  color: var(--text-medium) !important;
+}
+
+/* Skill bars - preserve exact alignment */
+#resume .bars {
+  margin-top: 30px;
+}
+
+#resume .skills {
+  margin-bottom: 42px;
+}
+
+#resume .skills li {
+  position: relative;
+  height: 42px;
+  margin-bottom: 6px;
+  background: var(--bg-light-grey) !important;
+  border: 1px solid var(--border-light) !important;
+}
+
+#resume .skills li em {
+  font-style: normal !important;
+  font-weight: 500;
+  color: var(--text-dark) !important;
+  position: relative;
+  top: -30px;
+}
+
+.bar-expand {
+  background: var(--blue-accent) !important;
+  height: 42px;
+}
+
+/* ------------------------------------------------------------------ */
+/* Portfolio Section */
+/* ------------------------------------------------------------------ */
+#portfolio {
+  background: var(--bg-light-grey) !important;
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+
+#portfolio h1 {
+  color: var(--text-dark) !important;
+  font-weight: 600 !important;
+}
+
+.portfolio-item .overlay {
+  background: rgba(14, 165, 233, 0.9) !important;
+}
+
+.portfolio-item h5 {
+  color: var(--bg-white) !important;
+  font-weight: 600 !important;
+}
+
+.portfolio-item p {
+  color: var(--bg-white) !important;
+}
+
+/* ------------------------------------------------------------------ */
+/* References Section - Remove italics */
+/* ------------------------------------------------------------------ */
+#references {
+  background: var(--bg-white) !important;
+  background-image: none !important;
+  padding-top: 90px;
+  padding-bottom: 72px;
+}
+
+#references .header-col h1 {
+  color: var(--text-dark) !important;
+  font-weight: 600 !important;
+}
+
+#references blockquote {
+  border: none;
+}
+
+#references blockquote p {
+  color: var(--text-medium) !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+}
+
+#references blockquote p:before {
+  content: "\201C";
+  font-size: 72px;
+  line-height: 72px;
+  color: var(--text-light);
+  font-style: normal !important;
+}
+
+#references cite {
+  color: var(--text-dark) !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+}
+
+#references cite:before {
+  content: "\2014 \0020";
+}
+
+/* ------------------------------------------------------------------ */
+/* Contact Section */
+/* ------------------------------------------------------------------ */
+#contact {
+  background: var(--bg-light-grey) !important;
+  padding-top: 96px;
+  padding-bottom: 102px;
+}
+
+#contact .section-head h1 {
+  color: var(--text-dark) !important;
+  font-weight: 600 !important;
+}
+
+#contact .lead {
+  color: var(--text-medium) !important;
+}
+
+#contact label {
+  color: var(--text-dark) !important;
+  font-weight: 500;
+}
+
+#contact input,
+#contact textarea,
+#contact select {
+  background-color: var(--bg-white) !important;
+  border: 1px solid var(--border-light) !important;
+  color: var(--text-dark) !important;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  border-color: var(--blue-accent) !important;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
+}
+
+#contact button.submit {
+  background: var(--blue-accent) !important;
+  color: var(--bg-white) !important;
+  border: none;
+}
+
+#contact button.submit:hover {
+  background: #0284C7 !important;
+}
+
+#contact .widget h4 {
+  color: var(--text-dark) !important;
+  font-weight: 600 !important;
+}
+
+#contact .widget .address {
+  color: var(--text-medium) !important;
+}
+
+/* ------------------------------------------------------------------ */
+/* Footer */
+/* ------------------------------------------------------------------ */
+footer {
+  background: var(--text-dark) !important;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+footer .social-links li a {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+footer .social-links li a:hover {
+  color: var(--blue-glow) !important;
+}
+
+footer .copyright li {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+footer .copyright li a {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+footer .copyright li a:hover {
+  color: var(--blue-glow) !important;
+}
+
+#go-top {
+  background-color: var(--blue-accent) !important;
+}
+
+#go-top a {
+  color: var(--bg-white) !important;
+}
+
+#go-top:hover {
+  background-color: #0284C7 !important;
+}
