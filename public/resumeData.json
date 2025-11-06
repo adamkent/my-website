@@ -1,46 +1,26 @@
 {
   "main": {
     "name": "Adam Kent",
-    "occupation": "Software Engineer and CS graduate",
-    "description": "I have a background in coding, starting over 10 years ago, with a Masters Degree in Computer Science from the University of Liverpool.",
+    "occupation": "Cloud-native Full Stack Developer",
+    "description": "Always striving to use the best and latest tools for the job. Looking for long-term permanent or contract positions, remote or on site.",
     "image": "profilepic.jpg",
-    "bio": "Since starting employment alongside my postgraduate studies, I have worked for several companies, including the UK Government.",
-    "contactmessage": "If you would like to reach out to me, please contact me by email or phone, the below form currently is not monitored.",
-    "occupation": "Software Engineer and Python Developer",
-    "description": "I have a background in coding, starting over 10 years ago, with a Masters Degree in Computer Science from the University of Liverpool.",
-    "image": "profilepic.jpg",
-    "bio": "I have worked as a Data Scientist and Developer for several organisations, including the UK Government Department of Health and Social Care, Bank of America, and some tech start-ups.",
-    "contactmessage": "Please email me on bs16atk@gmail.com as the form below is not currently monitored.",
+    "bio": "I'm a Full Stack Developer specializing in cloud-native architectures and AI-driven systems. I've worked with organizations including EDF Energy, Centrica (British Gas), Novo Nordisk, Bank of America, and the UK Government. I'm also the editor of smartergovs.org, exploring AI in governance and public sector technology.",
+    "contactmessage": "Please email me at bs16atk@gmail.com as the form below is not currently monitored.",
     "email": "bs16atk@gmail.com",
-    "phone": "07977297742",
+    "phone": "(+44) 7977 297742",
     "address": {
-      "street": "Wirral, Merseyside",
-      "city": "Liverpool City Region",
-      "state": "UK",
+      "street": "",
+      "city": "UK",
+      "state": "Remote",
       "zip": ""
     },
-    "website": "adamkent.net",
+    "website": "adamkent.com",
     "resumedownload": "",
     "social": [
-      {
-        "name": "facebook",
-        "url": "http://facebook.com/",
-        "className": "fa fa-facebook"
-      },
-      {
-        "name": "twitter",
-        "url": "http://twitter.com/",
-        "className": "fa fa-twitter"
-      },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/atkent/",
         "className": "fa fa-linkedin"
-      },
-      {
-        "name": "instagram",
-        "url": "http://instagram.com/kentechmedia",
-        "className": "fa fa-instagram"
       },
       {
         "name": "github",
@@ -53,66 +33,84 @@
     "skillmessage": "",
     "education": [
       {
-        "school": "University of Liverpool",
-        "degree": "Masters in Computer Science (Distinction)",
-        "graduated": "2021",
-        "description": "Final Project: Machine Learning classification of music by its respective genre. Also covered: Web Development, Artificial Intelligence, Database Systems, E-commerce Technologies."
-      },
-      {
-        "school": "University of Leeds",
-        "degree": "Bachelor of Science",
-        "graduated": "2019",
-        "description": ""
+        "school": "University of Liverpool & University of Leeds",
+        "degree": "MSc (Hons) Computer Science - First Class (Distinction)",
+        "graduated": "2016-2021",
+        "description": "Masters project: AI Classification of Music Genre - Built a Neural Network model classifying music genres using Mel-Frequency Cepstral Coefficients (MFCCs)."
       }
     ],
     "work": [
       {
-        "company": "Zifo Technologies Ltd",
-        "title" : "Consultant Python Developer",
-        "years" : "2022 - 2022",
-        "description" : "Providing consulting services as a Python/Javascript developer to high-profile clients including GSK, Nvidia and AstraZeneca."
+        "company": "PetLabCo",
+        "title": "Backend & Platform Engineer",
+        "years": "Jan 2025 - Present",
+        "description": "Working on serverless web stacks (AWS Lambda, API Gateway, MySQL). Building full-stack applications with latest TypeScript libraries. Designing APIs (FastAPI, API Gateway) and managing databases with pydantic and alembic. Using design patterns and domain-driven-design."
       },
       {
-        "company": "Bank Of America",
-        "title": "Assistant Vice President - Software Engineer III",
-        "years": "2022 - 2022",
-        "description": "Developing and maintaining components of bespoke in-house trading stack."
+        "company": "Zifo (IT Consultant)",
+        "title": "Full Stack Software Engineer",
+        "years": "Jun 2022 - Dec 2024",
+        "description": "Designed and deployed cloud-native AI-driven systems for EDF Energy, Centrica (British Gas), and Novo Nordisk. Delivered full-stack systems using Python (FastAPI, Flask), React, and Postgres. Built medical imaging tools and AI chat interfaces in production. Created CI/CD pipelines and infrastructure using Terraform and AWS CodePipeline."
       },
       {
-        "company": "UK Health Security Agency/Department of Health and Social Care",
+        "company": "Bank of America",
+        "title": "Software Engineer III (AVP) - Commodities",
+        "years": "May 2022 - Jul 2022",
+        "description": "Maintained risk platform (Brisk, part of Quartz/Athena) for PnL explain tools. Refactored Python-based models backed by Oracle (Sandra). Paired with front-office users for iterative SDLC improvements."
+      },
+      {
+        "company": "UK Government: Department of Health & SC",
         "title": "Data Scientist",
-        "years": "2021 - 2022",
-        "description": "Developing code to contribute to the smooth running of robotics and lab systems, Analysing ePCR data using Python visualisation packages, Administrating Oracle and MS-SQL databases."
+        "years": "Aug 2021 - Mar 2022",
+        "description": "Developed a Python-based informatics system for a new detection assay. Built secure dashboards and managed public health data pipelines. Advocated for scalable, transparent AI use in gov tech."
       }
     ],
     "skills": [
       {
         "name": "Python",
-        "level": "70%"
+        "level": "95%"
+      },
+      {
+        "name": "React/TypeScript",
+        "level": "90%"
       },
       {
         "name": "AWS",
+        "level": "90%"
+      },
+      {
+        "name": "FastAPI",
+        "level": "90%"
+      },
+      {
+        "name": "SQL/Postgres",
+        "level": "85%"
+      },
+      {
+        "name": "Docker/K8s",
         "level": "80%"
       },
       {
-        "name": "ReactJs",
-        "level": "50%"
+        "name": "Terraform/IaC",
+        "level": "85%"
       },
       {
-        "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "MySQL",
-        "level": "70%"
+        "name": "Next.js",
+        "level": "85%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Final Project",
-        "category": "Machine Learning classifcation of music by its genre",
+        "title": "SmarterGovs.org",
+        "category": "Editor - Exploring AI in governance and public sector technology",
+        "image": "project.JPG",
+        "url": "https://smartergovs.org"
+      },
+      {
+        "title": "Masters Project",
+        "category": "AI Classification of Music Genre using Neural Networks",
         "image": "project.JPG",
         "url": "https://www.github.com/adamkent/FinalProject"
       }

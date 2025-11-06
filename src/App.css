@@ -1,0 +1,113 @@
+/* Modern App Styles */
+.App {
+  min-height: 100vh;
+}
+
+/* Enhanced section transitions */
+section {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Modern button styles */
+button, .submit {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+button:hover, .submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Modern link styles */
+a {
+  transition: color 0.2s ease;
+}
+
+/* Enhanced card/section shadows */
+.portfolio-item .item-wrap,
+.widget {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-item .item-wrap:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Modern skill bars animation */
+.bar-expand {
+  transition: width 1s ease-in-out;
+}
+
+/* Improved form inputs */
+input[type="text"],
+input[type="email"],
+textarea {
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #11ABB0;
+  box-shadow: 0 0 5px rgba(17, 171, 176, 0.3);
+}
+
+/* Modern social links */
+.social li a,
+.social-links li a {
+  transition: all 0.3s ease;
+}
+
+.social li a:hover,
+.social-links li a:hover {
+  transform: scale(1.1);
+}
+
+/* Enhanced responsive design */
+@media screen and (max-width: 768px) {
+  .banner-text h1 {
+    font-size: 2.5rem;
+  }
+  
+  .banner-text h3 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Loading state */
+.App:empty::before {
+  content: "Loading...";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.5rem;
+  color: #11ABB0;
+}
+
+/* Accessibility improvements */
+:focus-visible {
+  outline: 2px solid #11ABB0;
+  outline-offset: 2px;
+}
+
+/* Modern scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #11ABB0;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0e8a8f;
+}
