@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: #f0f0f0; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #e9ebe8 url(../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -59,27 +59,27 @@ header .banner {
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #000;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   text-shadow: 0px 1px 3px rgba(255, 255, 255, .8);
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   color: #676767;
    margin: 0 auto;
    width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   text-shadow: 0px 1px 2px rgba(255, 255, 255, .5);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-   color: #fff;
+   color: #000;
 }
 header .banner-text hr {
    width: 60%;
    margin: 18px auto 24px auto;
-   border-color: #2F2D2E;
-   border-color: rgba(150, 150, 150, .1);
+   border-color: #d0d2d1;
+   border-color: rgba(105, 105, 105, .1);
 }
 
 /* header social links */
@@ -87,14 +87,14 @@ header .social {
    margin: 24px 0;
    padding: 0;
    font-size: 30px;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+   text-shadow: 0px 1px 2px rgba(255, 255, 255, .8);
 }
 header .social li {
    display: inline-block;
    margin: 0 15px;
    padding: 0;
 }
-header .social li a { color: #fff; }
+header .social li a { color: #000; }
 header .social li a:hover { color: #11ABB0; }
 
 /* scrolldown link */
@@ -103,13 +103,13 @@ header .scrolldown a {
    bottom: 30px;
    left: 50%;
    margin-left: -29px;
-   color: #fff;
+   color: #000;
    display: block;
    height: 42px;
    width: 42px;
    font-size: 42px;
    line-height: 42px;
-   color: #fff;
+   color: #000;
    border-radius: 100%;
 
    -webkit-transition: all .3s ease-in-out;
@@ -140,7 +140,7 @@ header .scrolldown a:hover { color: #11ABB0; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: #ddd; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -169,7 +169,7 @@ ul#nav li a {
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
-   color: #fff;
+   color: #000;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -187,23 +187,23 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #d4d4d4;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
+#about a, #about a:visited  { color: #000; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #000;
    margin-bottom: 12px;
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #959595;
 }
 #about .profile-pic {
    position: relative;
@@ -219,11 +219,11 @@ ul#nav li.current a { color: #F06000; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #444;
+   background: #bbb;
 }
 #about .download .button:hover {
-   background: #fff;
-   color: #2B2B2B;
+   background: #000;
+   color: #d4d4d4;
 }
 #about .download .button i {
    margin-right: 15px;
@@ -236,14 +236,14 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: #0f0f0f;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
 #resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#resume a:hover, #resume a:focus { color: #e8e8e8; }
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -264,11 +264,11 @@ ul#nav li.current a { color: #F06000; }
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+   border-bottom: 1px solid #3a3a3a;
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: #b0b8c0;
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -298,13 +298,13 @@ ul#nav li.current a { color: #F06000; }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-  	background: #ccc;
+  	background: #555;
   	height: 42px;
   	border-radius: 3px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+   color: #e8e8e8;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -318,7 +318,7 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #e8e8e8;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -417,7 +417,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #141111;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -427,13 +427,13 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #7a6c6c;
 }
 
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-   background: #fff;
+   background: #000;
    overflow: hidden;
    position: relative;
 
@@ -469,7 +469,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .portfolio-item .item-wrap .link-icon {
    display: block;
-   color: #fff;
+   color: #000;
    height: 30px;
    width: 30px;
    font-size: 18px;
@@ -497,11 +497,11 @@ ul#nav li.current a { color: #F06000; }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #000;
 }
 .portfolio-item .portfolio-item-meta p {
    font: 12px/18px 'opensans-light', sans-serif;
-   color: #c6c7c7;
+   color: #494848;
    margin-bottom: 0;
 }
 
@@ -520,7 +520,7 @@ ul#nav li.current a { color: #F06000; }
 /* popup modal */
 .popup-modal {
 	max-width: 550px;
-	background: #fff;
+	background: #0f0f0f;
 	position: relative;
 	margin: 0 auto;
 }
@@ -528,16 +528,16 @@ ul#nav li.current a { color: #F06000; }
 .popup-modal .description-box h4 {
    font: 15px/24px 'opensans-bold', sans-serif;
 	margin-bottom: 12px;
-   color: #111;
+   color: #eee;
 }
 .popup-modal .description-box p {
 	font: 14px/24px 'opensans-regular', sans-serif;
-   color: #A1A1A1;
+   color: #6e6e6e;
    margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
    font: 11px/21px 'opensans-light', sans-serif;
-   color: #A1A1A1;
+   color: #6e6e6e;
    text-transform: uppercase;
    letter-spacing: 2px;
    display: block;
@@ -548,11 +548,11 @@ ul#nav li.current a { color: #F06000; }
 }
 .popup-modal .link-box {
    padding: 18px 36px;
-   background: #111;
+   background: #eee;
    text-align: left;
 }
 .popup-modal .link-box a {
-   color: #fff;
+   color: #000;
 	font: 11px/21px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
    letter-spacing: 3px;
@@ -588,7 +588,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #call-to-action {
-   background: #212121;
+   background: #dedede;
    padding-top: 66px;
    padding-bottom: 48px;
 }
@@ -596,7 +596,7 @@ ul#nav li.current a { color: #F06000; }
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #fff;
+   color: #000;
 }
 #call-to-action h1 span { display: none; }
 #call-to-action .header-col h1:before {
@@ -607,21 +607,21 @@ ul#nav li.current a { color: #F06000; }
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #fff;
+   color: #000;
 }
 #call-to-action .action {
    margin-top: 12px;
 }
 #call-to-action h2 {
    font: 28px/36px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
+   color: #141111;
    margin-bottom: 6px;
 }
 #call-to-action h2 a {
    color: inherit;
 }
 #call-to-action p {
-   color: #636363;
+   color: #acacac;
    font-size: 17px;
 }
 /*#
@@ -632,12 +632,12 @@ call-to-action .button {
 */
 #call-to-action .button:hover,
 #call-to-action .button:active {
-   background: #FFFFFF;
-   color: #0D0D0D;
+   background: #000000;
+   color: #f2f2f2;
 }
 #call-to-action p span {
 	font-family: 'opensans-semibold', sans-serif;
-	color: #D8D8D8;
+	color: #272727;
 }
 
 /* ------------------------------------------------------------------
@@ -645,7 +645,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #references {
-   background: #1F1F1F url(../images/references-bg.jpg) no-repeat center center;
+   background: #e0e0e0 url(../images/references-bg.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -663,7 +663,7 @@ call-to-action .button {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #fff;
+   color: #000;
 }
 #references h1 span { display: none; }
 #references .header-col { padding-top: 9px; }
@@ -675,7 +675,7 @@ call-to-action .button {
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #fff;
+   color: #000;
 }
 
 /*	Blockquotes */
@@ -683,7 +683,7 @@ call-to-action .button {
    margin: 0 0px 30px 0px;
    padding-left: 0;
    position: relative;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+   text-shadow: 0px 1px 3px rgba(255, 255, 255, 1);
 }
 #references blockquote:before { content: none; }
 #references blockquote p {
@@ -691,14 +691,14 @@ call-to-action .button {
    padding: 0;
    font-size: 24px;
    line-height: 48px;
-   color: #fff
+   color: #000
 }
 #references blockquote cite {
    display: block;
    font-size: 12px;
    font-style: normal;
    line-height: 18px;
-   color: #fff;
+   color: #000;
 }
 #references blockquote cite:before { content: "\2014 \0020"; }
 #references blockquote cite a,
@@ -794,21 +794,21 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: #e6e6e6;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: #acacac;
 }
 #contact .section-head { margin-bottom: 42px; }
 
 #contact a, #contact a:visited  { color: #11ABB0; }
-#contact a:hover, #contact a:focus { color: #fff; }
+#contact a:hover, #contact a:focus { color: #000; }
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #EBEEEE;
+   color: #141111;
    margin-bottom: 6px;
 }
 #contact h1 span { display: none; }
@@ -820,12 +820,12 @@ call-to-action .button {
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #ebeeee;
+   color: #141111;
 }
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
+   color: #141111;
    margin-bottom: 6px;
 }
 #contact p.lead {
@@ -840,7 +840,7 @@ call-to-action .button {
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
-   color: #EBEEEE;
+   color: #141111;
 	display: inline-block;
 	float: left;
    width: 26%;
@@ -849,8 +849,8 @@ call-to-action .button {
 #contact textarea,
 #contact select {
    padding: 18px 20px;
-	color: #eee;
-	background: #373233;
+	color: #111;
+	background: #d8dddc;
 	margin-bottom: 42px;
 	border: 0;
 	outline: none;
@@ -861,14 +861,14 @@ call-to-action .button {
 #contact input:focus,
 #contact textarea:focus,
 #contact select:focus {
-	color: #fff;
+	color: #000;
 	background-color: #11ABB0;
 }
 #contact button.submit {
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color:#fff;
-   background: #0D0D0D;
+	color:#000;
+   background: #f2f2f2;
 	border: none;
    cursor: pointer;
    height: auto;
@@ -877,8 +877,8 @@ call-to-action .button {
    margin-left: 26%;
 }
 #contact button.submit:hover {
-	color: #0D0D0D;
-	background: #fff;
+	color: #f2f2f2;
+	background: #000;
 }
 #contact span.required {
 	color: #11ABB0;
@@ -886,7 +886,7 @@ call-to-action .button {
 }
 #message-warning, #message-success {
    display: none;
-	background: #0F0F0F;
+	background: #f0f0f0;
 	padding: 24px 24px;
 	margin-bottom: 36px;
    width: 65%;
@@ -921,7 +921,7 @@ call-to-action .button {
 }
 #twitter li b a {
    font: 13px/36px 'opensans-regular', Sans-serif;
-   color: #474747 !important;
+   color: #c8c8c8 !important;
    border: none;
 }
 
@@ -933,14 +933,14 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: #cfcfcf;
    font-size: 14px;
    text-align: center;
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a, footer a:visited { color: #adadad; }
+footer a:hover, footer a:focus { color: #000; }
 
 /* copyright */
 footer .copyright {
@@ -960,7 +960,7 @@ footer .copyright li:before {
     content: "\2022";
     padding-left: 10px;
     padding-right: 10px;
-    color: #095153;
+    color: #f6aeac;
 }
 footer .copyright  li:first-child:before {
     display: none;
@@ -977,7 +977,13 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #0f9fff;
+}
+footer .social-links li a {
+    color: #000;
+}
+footer .social-links li a:hover {
+    color: #11ABB0;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
@@ -995,7 +1001,7 @@ footer .social-links li:first-child { margin-left: 0; }
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #525252;
+	background-color: #adadad;
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
@@ -1003,7 +1009,7 @@ footer .social-links li:first-child { margin-left: 0; }
    -ms-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
 
-   color: #fff;
+   color: #000;
    font-size: 21px;
    line-height: 60px;
  	border-radius: 100%;
