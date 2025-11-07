@@ -5,12 +5,12 @@
 
 /* Remove header background image */
 header {
-   background: #161415 !important;
+   background: #f5f5f3 !important;
    background-image: none !important;
 }
 
 /* Remove references background image */
 #references {
-   background: #1F1F1F !important;
+   background: #f5f5f5 !important;
    background-image: none !important;
 }
