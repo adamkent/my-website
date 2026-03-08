@@ -179,7 +179,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #6d95ed; }
 
 
 /* ------------------------------------------------------------------ */
@@ -849,7 +849,7 @@ call-to-action .button {
 #contact textarea,
 #contact select {
    padding: 18px 20px;
-	color: #1a1a1a;
+	color: #fff;
 	background: #f5f5f5;
 	margin-bottom: 42px;
 	border: 0;

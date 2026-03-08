@@ -10,8 +10,8 @@
     "phone": "(+44) 7977 297742",
     "address": {
       "street": "",
-      "city": "UK",
-      "state": "Remote",
+      "city": "London,",
+      "state": "United Kingdom",
       "zip": ""
     },
     "website": "adamkent.net",
@@ -41,20 +41,26 @@
     ],
     "work": [
       {
+        "company": "Google",
+        "title": "Systems Development Engineer",
+        "years": "2026 - Present",
+        "description": "Working as part of the Google Cloud Public Sector UK team. Building, configuring, and deploying new compute and specialist infrastructure.Following Google principles of Cloud-Native, SRE, and CI/CD."
+      },
+      {
         "company": "PetLabCo",
-        "title": "Backend & Platform Engineer",
-        "years": "Jan 2025 - Present",
+        "title": "Software Engineer",
+        "years": "Jan 2025 - Oct 2025",
         "description": "Working on serverless web stacks (AWS Lambda, API Gateway, MySQL). Building full-stack applications with latest TypeScript libraries. Designing APIs (FastAPI, API Gateway) and managing databases with pydantic and alembic. Using design patterns and domain-driven-design."
       },
       {
-        "company": "Zifo (IT Consultant)",
-        "title": "Full Stack Software Engineer",
-        "years": "Jun 2022 - Dec 2024",
+        "company": "Zifo",
+        "title": "Software Engineer",
+        "years": "Jun 2022 - Jan 2023",
         "description": "Designed and deployed cloud-native AI-driven systems for EDF Energy, Centrica (British Gas), and Novo Nordisk. Delivered full-stack systems using Python (FastAPI, Flask), React, and Postgres. Built medical imaging tools and AI chat interfaces in production. Created CI/CD pipelines and infrastructure using Terraform and AWS CodePipeline."
       },
       {
         "company": "Bank of America",
-        "title": "Software Engineer III (AVP) - Commodities",
+        "title": "Software Engineer II (AVP) - Commodities",
         "years": "May 2022 - Jul 2022",
         "description": "Maintained risk platform (Brisk, part of Quartz/Athena) for PnL explain tools. Refactored Python-based models backed by Oracle (Sandra). Paired with front-office users for iterative SDLC improvements."
       },
