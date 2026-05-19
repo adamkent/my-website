@@ -2,9 +2,9 @@
   "main": {
     "name": "Adam Kent",
     "occupation": "Cloud-native Full Stack Developer",
-    "description": "Always striving to use the best and latest tools for the job. Looking for long-term permanent or contract positions, remote or on site.",
+    "description": "Always striving to use the best and latest tools for the job.",
     "image": "profilepic.jpg",
-    "bio": "I'm a Full Stack Developer specializing in cloud-native architectures and AI-driven systems. I've worked with organizations including EDF Energy, Centrica (British Gas), Novo Nordisk, Bank of America, and the UK Government. I'm also the editor of smartergovs.org, exploring AI in governance and public sector technology.",
+    "bio": "I'm a Full Stack Developer specialising in cloud-native architecture and AI/data driven systems. I've worked with organisations including EDF Energy, Novo Nordisk, Bank of America, and the UK Government. I'm also the editor of smartergovs.org, exploring the role of AI in public sector technology.",
     "contactmessage": "Please reach out via LinkedIn or the form below.",
     "email": "",
     "phone": "(+44) 7977 297742",
@@ -42,15 +42,15 @@
     "work": [
       {
         "company": "Google",
-        "title": "Systems Development Engineer",
+        "title": "Systems Development Engineer (InfraOps)",
         "years": "2026 - Present",
-        "description": "Working as part of the Google Cloud Public Sector UK team. Building, configuring, and deploying new compute and specialist infrastructure. Following Google principles of Cloud-Native, SRE, and CI/CD."
+        "description": "Building, configuring, and deploying specialist infrastructure. Following Google principles of Cloud-Native, SRE, and CI/CD."
       },
       {
         "company": "PetLabCo",
         "title": "Software Engineer",
-        "years": "Jan 2025 - Oct 2025",
-        "description": "Working on serverless web stacks (AWS Lambda, API Gateway, MySQL). Building full-stack applications with latest TypeScript libraries. Designing APIs (FastAPI, API Gateway) and managing databases with pydantic and alembic. Using design patterns and domain-driven-design."
+        "years": "Jan 2025 - Nov 2025",
+        "description": "Working on Cloud-Native Python stacks using both Containers and Serverless. Using Design Patterns, Layered Architecture, and Domain-Driven-Design. DB and API Design (FastAPI), with Pydantic validation, and Alembic ORM. Making design decisions and rolling out features with product readiness in mind."
       },
       {
         "company": "Zifo",
@@ -62,7 +62,7 @@
         "company": "Bank of America",
         "title": "Software Engineer II (AVP) - Commodities",
         "years": "May 2022 - Jul 2022",
-        "description": "Maintained risk platform (Brisk, part of Quartz/Athena) for PnL explain tools. Refactored Python-based models backed by Oracle (Sandra). Paired with front-office users for iterative SDLC improvements."
+        "description": "Maintained Python risk platform (Brisk, part of Quartz/Athena) and designed PnL explain dashboards. Paired with front-office users for iterative improvements."
       },
       {
         "company": "UK Government: Department of Health & SC",
