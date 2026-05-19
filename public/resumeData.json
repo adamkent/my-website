@@ -55,8 +55,8 @@
       {
         "company": "Zifo",
         "title": "Software Engineer",
-        "years": "Jun 2022 - Jan 2023",
-        "description": "Designed and deployed cloud-native AI-driven systems for EDF Energy, Centrica (British Gas), and Novo Nordisk. Delivered full-stack systems using Python (FastAPI, Flask), React, and Postgres. Built medical imaging tools and AI chat interfaces in production. Created CI/CD pipelines and infrastructure using Terraform and AWS CodePipeline."
+        "years": "Jul 2022 - Jan 2023",
+        "description": "Designed and deployed cloud-native AI-driven systems for EDF Energy, Centrica (British Gas), and Novo Nordisk. Delivered full-stack systems using Python (FastAPI, Flask), React, and Postgres. Built medical imaging tools and AI chat interfaces in production. Created CI/CD pipelines and infrastructure using Terraform and AWS CodePipeline. Built AI search tools using pre-trained models (huggingface), elasticsearch, and Neo4J."
       },
       {
         "company": "Bank of America",
